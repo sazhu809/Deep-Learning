@@ -70,3 +70,5 @@ Note: If you make at least three attempts at optimizing your model, you will not
 4. Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
 
 5. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
+
+## Step 4: Write a Report on the Neural Network Model
