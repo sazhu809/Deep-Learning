@@ -53,20 +53,20 @@ Use any or all of the following methods to optimize your model:
 
 - Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
    - Dropping more or fewer columns.
-Creating more bins for rare occurrences in columns.
-Increasing or decreasing the number of values for each bin.
-Add more neurons to a hidden layer.
-Add more hidden layers.
-Use different activation functions for the hidden layers.
-Add or reduce the number of epochs to the training regimen.
+   - Creating more bins for rare occurrences in columns.
+   - Increasing or decreasing the number of values for each bin.
+   - Add more neurons to a hidden layer.
+   - Add more hidden layers.
+   - Use different activation functions for the hidden layers.
+   - Add or reduce the number of epochs to the training regimen.
 Note: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
 
-Create a new Google Colab file and name it AlphabetSoupCharity_Optimization.ipynb.
+1. Create a new Google Colab file and name it AlphabetSoupCharity_Optimization.ipynb.
 
-Import your dependencies and read in the charity_data.csv to a Pandas DataFrame.
+2. Import your dependencies and read in the charity_data.csv to a Pandas DataFrame.
 
-Preprocess the dataset as you did in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.
+3. Preprocess the dataset as you did in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.
 
-Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
+4. Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
 
-Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
+5. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
