@@ -72,5 +72,7 @@ Note: If you make at least three attempts at optimizing your model, you will not
 5. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
 
 ## Step 4: Write a Report on the Neural Network Model
-1. Overview: 
-   The purpose of this 
+1. Overview: In this analysis, a model is created to help AlphabetSoup choose applicants who are most likely to be successfull to recieve funding from the venture. 
+2. The variable target is the "IS_SUCCESSFUL". The feature variables are "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "STATUS" "INCOME_AMT", "SPECIAL_CONSIDERATIONS", and "ASK_AMT". The variables that are removed from the input data are "EIN" and "NAME".
+3. I selected 3 layers with 13,10,2 neurons respectively. However, I did not reach the target model performance as my accuracy is 72%. I tried to add more layers and more neurons. I did not add too much because I notice my computer sometimes can not handle it. 
+4. 
